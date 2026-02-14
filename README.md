@@ -12,10 +12,10 @@ An AI chat application built with **React** and **Vite**. Connect your OpenAI AP
 - **Responsive design** — Collapsible sidebar for mobile, adaptive layout
 
 ## Quick Start
-Open up YapGPT in your browser
-Go to platform.openai.com and get an API key
-Enter your API key in the settings modal
-Start chatting with YapGPT
+- Open up YapGPT in your browser
+- Go to platform.openai.com and get an API key
+- Enter your API key in the settings modal
+- Start chatting with YapGPT
 
 ### Prerequisites
 
