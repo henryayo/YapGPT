@@ -1,17 +1,21 @@
 # YapGPT
 
-A ChatGPT-style AI chat application built with **React** and **Vite**. Connect your OpenAI API key and start chatting with GPT-3.5 Turbo.
+An AI chat application built with **React** and **Vite**. Connect your OpenAI API key and start chatting with GPT-3.5 Turbo.
 
 ## Features
 
 - **Multi-conversation support** — Create, switch, and delete separate chat threads
 - **Persistent history** — Conversations are saved to localStorage across sessions
-- **ChatGPT-inspired UI** — Clean dark interface with centered welcome screen, pill-shaped input, and responsive sidebar
-- **Secure API key handling** — Key is loaded from a gitignored `.env` file or entered via the Settings modal
+- **Clean dark interface** — Clean dark interface with centered welcome screen, pill-shaped input, and responsive sidebar
+- **API key handling** — Key is loaded from a gitignored `.env` file or entered via the Settings modal
 - **Error handling** — Friendly error banners for auth failures, rate limits, and server issues
 - **Responsive design** — Collapsible sidebar for mobile, adaptive layout
 
 ## Quick Start
+Open up YapGPT in your browser
+Go to platform.openai.com and get an API key
+Enter your API key in the settings modal
+Start chatting with YapGPT
 
 ### Prerequisites
 
@@ -25,7 +29,7 @@ A ChatGPT-style AI chat application built with **React** and **Vite**. Connect y
 npm install
 
 # 2. Add your API key
-#    Create a .env file in the project root:
+# Create a .env file in the project root:
 echo VITE_OPENAI_API_KEY=sk-your-key-here > .env
 
 # 3. Start dev server
